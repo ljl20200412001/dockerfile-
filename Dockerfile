@@ -2,7 +2,7 @@ FROM centos
 
 MAINTAINER cc
 
-RUN rm-rf /etc/yum.repos.d/Cen*
+RUN rm /etc/yum.repos.d/Cen*
 
 COPY repo/* /etc/yum.repos.d/
 
